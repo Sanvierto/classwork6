@@ -1,3 +1,33 @@
+
 p:hover {
-    color: red;
+    color: red; 
+}
+
+.example:active {
+    font-weight: bold; 
+}
+
+input:focus {
+    border-color: blue; 
+}
+
+ul li:nth-child(odd) {
+    background-color: lightgray; 
+}
+
+.example::before {
+    content: "Before "; 
+}
+
+.example::after {
+    content: " After"; 
+}
+
+p::first-line {
+    text-transform: uppercase; 
+}
+
+ul li::before {
+    content: "\2022";
+    margin-right: 5px;
 }
